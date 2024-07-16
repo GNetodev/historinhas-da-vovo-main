@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(241, 241, 241, 0.836);
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.quadro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 40px;
+    max-width: 100%;
+}
+
+.quadro header img{
+    width: 1000px; 
+}
+
+.coracao-gif {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro img {
+    width: 350px;
+    padding: 10px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+
+.intro ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+}
+
+@font-face {
+    font-family: hvFont;
+    src: url(Androgyne_TB.otf);
+    color: #800000;
+}
+
+#topo li i,
+#down-insetos,
+.vamosNessa,
+.alerta h1,
+.ul-em-breve h2 {
+    font-family: hvFont;
+}
+
+.intro ul li p  {
+    padding: 4px;
+}
+
+.intro #era-uma-vez {
+    font-size: 26px;
+    padding-bottom: 24px;
+}
+
+.intro #pergunta,
+    #historinhas-da-vovo {
+    font-size: 26px;
+}
+
+.intro #resumo {
+    font-size: 20px;
+}
+
+.hv-download {
+    margin-top: 90px;
+}
+
+.hv-download #down-insetos {
+    margin-bottom: 20px;
+}
+
+.hv-download > .lendo #img-download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+#img-download:hover {
+    width: 400px;
+}
+
+.lendo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lendo #menino-lendo {
+    padding-left: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.lendo #menina-lendo {
+    max-width: 220px;
+    padding: 20px;
+    margin-right: 70px;
+}
+
+.alerta h1 {
+    display: flex;
+    align-items: center;
+}
+
+.alerta {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.alerta img {
+    width: 300px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.hv-download p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+li img {
+    padding-right:60px;
+    padding-left: 60px;
+}
+
+li #balao {
+    width: 70px;
+    align-items: center;
+}
+
+.em-breve .vamosNessa {
+    font-size: 25px;
+    vertical-align: bottom;
+    text-align:center;
+}
+
+.ul-em-breve li,
+.ul-em-breve img,
+.ul-em-breve h2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 28px;
+}
+
+.ul-em-breve h2 {
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.384);
+}
+
+.ul-em-breve li{
+    max-width: 40%;
+    text-align: start;
+    font-size: 18px;
+}
+
+.alerta img {
+    display: flex;
+    margin: 0 auto;
+}
+
+
+.rodape {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape #hv-gif{
+    width: 900px;
+}
+
+.audio-control {
+    display: flex;
+    justify-content: center;
+    opacity: 30%;
+    cursor: pointer;
+}
+
+.audio-control audio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.audio-control:hover {
+    opacity: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        display: table;
+        padding-left: 30px;
+    }
+    }
